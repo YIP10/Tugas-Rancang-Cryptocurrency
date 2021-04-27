@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:layout_marginTop="@dimen/card_margin"
+    android:layout_marginRight="@dimen/card_margin"
+    android:layout_marginLeft="@dimen/card_margin"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    android:elevation="@dimen/card_elevation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar" />
+
+    </LinearLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/gradient_background">
+
+        <View
+            android:layout_width="113dp"
+            android:layout_height="118dp"
+            android:layout_marginRight="144dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/yipicon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.016" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="17dp"
+            android:layout_marginLeft="152dp"
+            android:layout_marginTop="144dp"
+            android:layout_marginRight="8dp"
+            android:text="Version 1.1"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="88dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="72dp"
+            android:paddingTop="8dp"
+            android:text="Cryptocurrency App"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:layout_marginTop="265dp"
+        android:background="@drawable/gradient_background">
+
+        <View
+            android:layout_width="47dp"
+            android:layout_height="290dp"
+            android:layout_marginRight="320dp"
+            android:layout_marginBottom="5dp"
+            android:background="@mipmap/abt"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.042" />
+
+        <TextView
+            android:id="@+id/fb1"
+            android:text="@string/fb"
+            android:textColorLink="@color/white"
+            android:layout_width="231dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginRight="8dp"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ig1"
+            android:text="@string/ig"
+            android:textColorLink="@color/white"
+            android:layout_width="231dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="96dp"
+            android:layout_marginRight="8dp"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tw1"
+            android:text="@string/tw"
+            android:textColorLink="@color/white"
+            android:layout_width="231dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginRight="8dp"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/em1"
+            android:text="@string/em"
+            android:textColorLink="@color/white"
+            android:layout_width="231dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginRight="8dp"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/rate1"
+            android:text="@string/rate"
+            android:textColorLink="@color/white"
+            android:layout_width="231dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="224dp"
+            android:layout_marginRight="8dp"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/bug1"
+            android:text="@string/bug"
+            android:textColorLink="@color/white"
+            android:layout_width="231dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="268dp"
+            android:layout_marginRight="8dp"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="231dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="8dp"
+            android:text="Check for an Update"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="675dp"
+        android:background="@drawable/gradient_background"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="4dp"
+            android:paddingTop="8dp"
+            android:text="Copyright © 2021 Yip 672018219. All Right Reserved"
+            android:textColor="@color/grey"
+            android:textSize="14sp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.design.card.MaterialCardView>

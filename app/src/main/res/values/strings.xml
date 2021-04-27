@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Cry10</string>
+    <string name="backdrop_title">Cry10</string>
+    <string name="fb"><a href="https://www.facebook.com/YIPitartovic/">Facebook</a></string>
+    <string name="ig"><a href="https://www.instagram.com/pitartovic/">Instagram</a></string>
+    <string name="tw"><a href="https://www.twitter.com/pitartovic/">Twitter</a></string>
+    <string name="em"><a href="https://www.youtube.com/channel/UC3aoOEoRzDnEVxZ6LPlsr0w">Youtube</a></string>
+    <string name="rate"><a href="https://play.google.com">Rate Our App</a></string>
+    <string name="bug"><a href="https://wa.me/+6285799121415">Report a Bug</a></string>
+
+</resources>
